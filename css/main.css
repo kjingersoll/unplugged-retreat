@@ -219,17 +219,17 @@ address {
   }
   footer .content-wrapper {
     width: 55%;
-    margin:50px 0 0 0;
+    margin:30px 0 0 0;
   }
-  footer .contact {
-    margin-bottom: 50px;
+  footer .contact p {
+    line-height: 1.7;
   }
-  footer .social {
+  footer .contact, footer .social {
     margin-bottom: 50px;
   }
   footer .social-icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
   footer .social p {
@@ -570,6 +570,9 @@ address {
     }
 
 /* Features */
+    .features .content-wrapper {
+      margin-bottom: 70px;
+    }
     .features article {
       display: flex;
       justify-content: center;
@@ -583,6 +586,11 @@ address {
     }
 
 /* Reviews */
+    .reviews h2 {
+      font-size: 2.25em;
+      line-height: 1.2;
+      margin-bottom: 0;
+    }
     .reviews article {
       display: flex;
       justify-content: space-between;
@@ -595,17 +603,30 @@ address {
     }
 
 /*About Page*/
+    .mission .content-wrapper {
+      margin: 100px 0;
+    }
+    .contact-section h2 {
+      font-size: 2.25em;
+      line-height: 1.2;
+      margin-bottom: 40px;
+      width: 78%;
+    }
     .mission-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 20px;
+      padding-top: 40px;
+    }
+    .contact-section h3 {
+      font-size: 1.5em;
     }
     .map figure {
         padding-bottom: 46%;
     }
     .mission-content p {
       width: 45%;
+      margin: 0;
     }
 
     .contact-section .content-wrapper h1 {
@@ -617,34 +638,47 @@ address {
       justify-content: space-between;
       align-items: flex-start;
     }
-
+    .general-info, .chat {
+      width: 45%;
+    }
 /*FAQ Page*/
     .faq .content-wrapper {
       justify-content: space-between;
+      margin: 100px 0 65px 0;
     }
-
     .faq-content {
-      flex-basis: 40%;
+      flex-basis: 47%;
+      margin-bottom: 35px;
     }
-
+    .faq-content h4{
+      font-size: .875em;
+    }
     .faq h2 {
       width: 100%;
+      font-size: 2.25em;
+      margin: 0 0 30px 0;
     }
 
 /* Footer */
     footer .content-wrapper {
       width: 65%;
-      margin: 100px 0;
+      margin-top: 80px;
     }
-
+    footer h3 {
+      margin: 0 0 40px 0;
+      font-size: 1.5em;
+    }
     .footer-content {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
+      flex-flow: row wrap;
     }
-
+    footer .contact, footer .social {
+      width: 45%;
+    }
     footer .contact {
-      margin-bottom: 0;
+      margin-bottom: 50px;
     }
 
     footer .copyright {
