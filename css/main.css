@@ -232,6 +232,9 @@ address {
     justify-content: center;
     align-items: center;
   }
+  footer .social span {
+    color: #527158;
+  }
   footer .copyright {
     margin: 20px 0;
   }
