@@ -229,16 +229,21 @@ address {
   }
   footer .social-icons{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
-  footer .social p {
+  footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  footer .social span {
-    color: #527158;
+
+  footer .social-icons p i {
+    font-size: 1.3125em;
   }
   footer .copyright {
     margin: 10px;
@@ -670,12 +675,12 @@ address {
     }
     .footer-content {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: flex-start;
       flex-flow: row wrap;
     }
     footer .contact, footer .social {
-      width: 45%;
+      width: 31%;
     }
     footer .contact {
       margin-bottom: 50px;
@@ -757,7 +762,7 @@ address {
     }
     footer .contact, footer .social {
       margin-bottom: 100px;
-      width: 33%;
+      width: 21%;
     }
     /*About Page*/
     .map figure {
