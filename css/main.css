@@ -699,8 +699,12 @@ address {
      width: 15%;
    }
    /*Hero*/
+   .hero-area .content-wrapper {
+     margin-top: 45px;
+   }
    .hero-area h1 {
-     width: 60%;
+     width: 70%;
+     font-size: 3.75em;
    }
    /*Aside*/
     aside .content-wrapper {
@@ -708,18 +712,40 @@ address {
     }
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {
-        width: 30%;
+        width: 33%;
+    }
+    aside h3 {
+      font-size: 1.875em;
+      margin-bottom: 15px;
+    }
+    aside p {
+      font-size: 1.125em;
+      width: 90%;
     }
     /*Features*/
     .features h2 {
       width: 90%;
+      font-size: 2.25em;
     }
-
+    .features .features-item-description {
+      width: 65%;
+    }
+    .features .features-items p {
+      font-size: 1.125em;
+    }
     .features article {
       flex-basis: 33%;
     }
 
     /*Reviews*/
+    .reviews h2 {
+      margin-bottom: 90px;
+    }
+    .reviews h3 {
+      margin-top: 0;
+      font-size: 1.875em;
+      width: 100%;
+    }
     .reviews article div {
       width: 42%;
     }
@@ -727,8 +753,12 @@ address {
     /* Footer */
     footer .content-wrapper {
       width: 88%;
+      margin-top: 100px;
     }
-
+    footer .contact, footer .social {
+      margin-bottom: 100px;
+      width: 33%;
+    }
     /*About Page*/
     .map figure {
         padding-bottom: 38%;
